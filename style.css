@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3ed;
+    color: #49382e;
+}
+
+header {
+    background-color: #4b3024;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #d6ad82;
+}
+
+.about {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about h2,
+.mission h2,
+.vision h2 {
+    color: #5c3825;
+    margin-bottom: 20px;
+}
+
+.about img {
+    width: 60%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.about p,
+.mission p,
+.vision p {
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 15px auto;
+}
+
+.mission,
+.vision {
+    text-align: center;
+    padding: 25px 20px;
+    margin: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #4b3024;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.about img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .about img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about,
+    .mission,
+    .vision {
+        padding: 25px 15px;
+    }
+
+    nav a {
+        margin: 8px;
+        font-size: 14px;
+    }
+}
